@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import profile from "../../assets/profile.jpg"
 const About = () => {
   return (
-    <div data-aos="fade-up" name="a propos" className="flex md:h-screen w-full bg-second ">
+    <div data-aos="fade-up" name="about" className="flex md:h-screen w-full bg-second ">
       
       <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-8 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
 

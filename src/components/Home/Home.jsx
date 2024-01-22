@@ -3,6 +3,7 @@ import NavBar from "../NavBar/NavBar";
 import Presentation from "../Presentation/Presentation";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
@@ -11,8 +12,8 @@ const Home = () => {
       <Presentation />
        <About />
      <Skills />
-      {/* <Services />
-      <Projects />
+      <Services />
+      {/* <Projects />
       <Contact /> */}
     </div>
   );

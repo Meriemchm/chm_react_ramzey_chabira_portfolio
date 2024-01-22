@@ -126,7 +126,7 @@ export const services = [
     title: "Experience in building machine learning models",
     description:
       "",
-    style: "border-second",
+    style: "bg-four",
     textStyle : "text-second"
   },
   {
@@ -134,7 +134,7 @@ export const services = [
     src: "",
     title: "Data Analysis and Visualization",
     description: "",
-    style: "border-second",
+    style: "bg-primary",
     textStyle : "text-second"
   },
   {
@@ -143,7 +143,7 @@ export const services = [
     title: "Data Preprocessing and Feature Engineering",
     description:
       "",
-    style: "border-second",
+    style: "bg-four",
     textStyle : "text-second"
   },
   {
@@ -151,7 +151,7 @@ export const services = [
     src: "",
     title: "Model Evaluation",
     description: "",
-    style: "border-second",
+    style: "bg-four",
     textStyle : "text-second"
   },
 ];
