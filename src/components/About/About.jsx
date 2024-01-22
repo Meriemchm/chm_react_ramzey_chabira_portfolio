@@ -6,15 +6,14 @@ const About = () => {
   return (
     <div data-aos="fade-up" name="a propos" className="flex md:h-screen w-full bg-second ">
       
-      <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-5 xl:gap-8 xl:flex-row xl:my-0 xl:w-full ">
+      <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-8 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
 
-      <div className="bg-primary rounded-lg md:flex items-center justify-center p-2 md:w-[20rem] h-[20rem] w-[15rem]  md:h-[23rem] relative mb-16">
-          <img
+       <img
             src={profile}
             alt="MyProfile"
-            className="rounded-lg mx-auto md:w-[20rem] h-[20rem] w-[15rem] md:h-[23rem] object-cover  absolute -top-8 -left-4"
+            className="rounded-lg  md:w-[20rem] h-[20rem] w-[15rem] md:h-[23rem] object-cover "
           />
-        </div>
+     
 
         <div className="flex flex-col xl:justify-center md:px-8 xl:w-1/2">
 
@@ -24,7 +23,7 @@ const About = () => {
 
           <p className="text-primary">Data Scientist</p>
 
-          <div className="flex my-2">
+          <div className="flex my-3">
             <ul className="flex flex-row ">
               {links.map(({ id, mobile, href, download }) => {
                 return (

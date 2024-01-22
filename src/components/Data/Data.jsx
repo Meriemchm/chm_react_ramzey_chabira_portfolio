@@ -1,4 +1,6 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin,FaJava  } from "react-icons/fa";
+import { BiLogoPython, BiLogoGit } from "react-icons/bi";
+import { SiTensorflow,SiKeras,SiPytorch   } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
 
 export const Navlink = [
@@ -61,53 +63,60 @@ export const links = [
 export const techs = [
     {
       id: 1,
-      child: "html_1051277.png",
+      child: <BiLogoPython color="black" size={50} />,
       title: "Python",
-      style: " bg-gradient-to-r from-yellow-500 to-four",
+      style: "",
       type: "Programming languages",
     },
     {
       id: 2,
-      child: "css-3_732190.png",
+      child: <img src="c.png"/>,
       title: "C",
-      style: " bg-gradient-to-r from-yellow-500 to-four",
+      style: "",
       type: "Programming languages",
     },
     {
       id: 3,
-      child: "js_5968292.png",
+      child: <FaJava  color="black" size={50} />,
       title: "Java",
-      style: " bg-gradient-to-r from-yellow-500 to-four",
+      style: "",
       type: "Programming languages",
     },
     {
       id: 4,
-      child: "photoshop.png",
+      child: <SiTensorflow  color="black" size={50} />,
       title: "TensorFlow",
-      style: " bg-gradient-to-r from-yellow-500 to-four",
+      style: "",
       type: "machine learning",
     },
     {
       id: 5,
-      child: "logo192.png",
+      child: <SiKeras  color="black" size={50} />,
       title: "keras",
-      style: " bg-gradient-to-r from-yellow-500 to-four",
+      style: "",
       type: "machine learning",
     },
     {
       id: 6,
-      child: "nodejs.png",
+      child: <SiPytorch className="text-primary"  size={50} />,
       title: "Pytorch",
       style: "",
       type: "machine learning",
     },
     {
       id: 7,
-      child: "sass.png",
+      child: <img src="sklearn.png"/>,
       title: "sklearn",
       style: "",
       type: "machine learning",
     },
+    {
+        id: 8,
+        child: <BiLogoGit color="black" size={50} />,
+        title: "Git & Github",
+        style: "",
+        type: "others",
+      },
   ];
 
 export const services = [

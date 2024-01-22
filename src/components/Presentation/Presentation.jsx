@@ -1,4 +1,5 @@
 import React from "react";
+import { links } from "../Data/Data";
 
 const Presentation = () => {
   return (
@@ -12,6 +13,26 @@ const Presentation = () => {
           <p className="text-primary text-4xl md:text-8xl font-bold text-right">
           Data Scientist
           </p>
+          
+        <div className="flex  ">
+            <ul className="flex flex-row ">
+              {links.map(({ id, mobile, href, download }) => {
+                return (
+                  <li key={id} className="mr-5 hover:scale-105 duration-200">
+                    <a
+                      href={href ? href : "/"}
+                      download={download}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex justify-between items-center w-full text-five "
+                    >
+                      {mobile}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
