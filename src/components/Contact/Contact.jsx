@@ -2,7 +2,7 @@ import React from "react";
 import { formItem } from "../Data/Data";
 import { Link as Links } from "react-router-dom";
 const Contact = () => {
-  const client = "https://getform.io/f/96dc7a6f-74c5-444c-87bf-ed40cd40cedb";
+  const client = "";
   const inputItem = formItem.filter((item) => item.categorie === "input");
   const areaItem = formItem.filter((item) => item.categorie === "textarea");
   const endElemnt = inputItem.slice(-1)[0];
