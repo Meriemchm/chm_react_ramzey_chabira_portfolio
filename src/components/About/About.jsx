@@ -4,18 +4,19 @@ import { Link } from "react-scroll";
 import profile from "../../assets/profile.jpg"
 const About = () => {
   return (
-    <div data-aos="fade-up" name="about" className="flex md:h-screen w-full bg-second ">
+    <div  name="about" className="flex md:h-screen w-full bg-second ">
       
       <div className="mx-auto flex flex-col-reverse justify-center items-center px-8 my-16 gap-8 xl:gap-0 xl:flex-row xl:my-0 xl:w-full ">
 
+<div data-aos="fade-right">
        <img
             src={profile}
             alt="MyProfile"
             className="rounded-lg  md:w-[20rem] h-[20rem] w-[15rem] md:h-[23rem] object-cover "
           />
      
-
-        <div className="flex flex-col xl:justify-center md:px-8 xl:w-1/2">
+     </div>
+        <div data-aos="fade-left" className="flex flex-col xl:justify-center md:px-8 xl:w-1/2">
 
           <h2 className="text-four text-2xl md:text-5xl font-bol">
           Hi, I am   <span className="text-four">Chabira Ramzey</span>{" "}

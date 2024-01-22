@@ -12,7 +12,7 @@ const Skills = () => {
       name="skills"
       className="bg-four w-full md:h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col  w-full h-full text-white">
+      <div data-aos="fade-up" className="max-w-screen-lg mx-auto p-4 flex flex-col  w-full h-full text-white">
        
           <p className="text-6xl font-bold text-five text-center py-8 ">
             Skills
