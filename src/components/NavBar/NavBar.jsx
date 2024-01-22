@@ -58,7 +58,7 @@ const Navbar = () => {
         {show ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {show && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-purple-800 via-purple-300 to-orange-300 text-white/80">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-third text-white/80">
           {Navlink.map(({ id, link }) => {
             return (
               <li

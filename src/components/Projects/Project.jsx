@@ -7,7 +7,7 @@ import { FaTimes } from "react-icons/fa";
 const Project = () => {
 
   return (
-    <div className="mx-auto grid grid-cols-1 xl:grid-cols-1 gap-6 text-center py-8 px-0 justify-center items-center ">
+    <div className=" grid grid-cols-1 xl:grid-cols-1 gap-6 text-center py-8 px-0 justify-center items-center ">
       {projects.map(({ id, src, title, description, hdemo, hcode, pdf }) => {
         const [isTruncated, setIsTruncated] = useState(true);
 
@@ -17,7 +17,7 @@ const Project = () => {
         return (
           <div
             key={id}
-            className="flex shadow-md shadow-gray-600 bg-white rounded-lg self-start"
+            className="md:flex shadow-md  bg-white rounded-lg self-start"
           >
             <div className="relative group ">
               <img
@@ -28,7 +28,7 @@ const Project = () => {
             </div>
 
             <div className="mx-5 flex flex-col text-gray-800 my-4 justify-between">
-              <h2 className="text-bold text-2xl capitalize mb-2 self-start">
+              <h2 className="text-bold md:text-2xl capitalize mb-2 self-start">
                 {title}
               </h2>
 
