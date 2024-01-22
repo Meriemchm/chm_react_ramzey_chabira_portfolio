@@ -56,7 +56,7 @@ const About = () => {
             </button>
             <button className="bg-tansparent  border-[1px] border-primary text-four px-5 py-2 rounded-md text-bold duration-200 hover:scale-105  ">
               {" "}
-              <a href="/CV_allagui_severine.pdf" target="_blank">
+              <a href="/" target="_blank">
                 my CV
               </a>
             </button>
