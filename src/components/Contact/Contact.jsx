@@ -2,13 +2,13 @@ import React from "react";
 import { formItem } from "../Data/Data";
 import { Link as Links } from "react-router-dom";
 const Contact = () => {
-  const client = "";
+  const client = "https://getform.io/f/813cf27b-4138-4a73-a92a-1e98eaf7664e";
   const inputItem = formItem.filter((item) => item.categorie === "input");
   const areaItem = formItem.filter((item) => item.categorie === "textarea");
   const endElemnt = inputItem.slice(-1)[0];
   return (
-    <div data-aos="fade-up" name="contact" className="h-full py-20 bg-third ">
-      <div className="pb-8 md:px-20">
+    <div name="contact" className="h-full py-20 bg-third ">
+      <div data-aos="fade-up"  className="pb-8 md:px-20">
 
         <p className="text-6xl font-bold text-primary text-center py-8 ">
             Contact
@@ -18,7 +18,7 @@ const Contact = () => {
 
       <div className="flex flex-col 2xl:flex-row justify-center items-center  md:w-full lg:px-0 ">
 
-        <div className="p-5 flex rounded-lg">
+        <div data-aos="fade-up"  className="p-5 flex rounded-lg">
           <form
             action={client}
             method="POST"
@@ -28,7 +28,7 @@ const Contact = () => {
               Let's Collaborate !
             </p>
 
-            <div className="flex gap-3  ">
+            <div  className="flex gap-3  ">
               {inputItem.slice(0, 2).map((item, id) => {
                 return (
                   <input
