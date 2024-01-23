@@ -8,7 +8,7 @@ const Project = () => {
 
   return (
     <div className=" grid grid-cols-1 xl:grid-cols-1 gap-6 text-center py-8 px-0 justify-center items-center ">
-      {projects.map(({ id, src, title, description, hdemo, hcode, pdf }) => {
+      {projects.map(({ id, src, title, description, hdemo, hcode }) => {
         const [isTruncated, setIsTruncated] = useState(true);
 
         const toggleTruncate = () => {
@@ -23,7 +23,7 @@ const Project = () => {
               <img
                 src={src}
                 alt="project-name"
-                className="rounded-lg md:h-96 xl:w-[30rem] h-60 w-full object-cover"
+                className="rounded-lg md:h-64 xl:w-[30rem] h-60 w-full object-cover"
               />
             </div>
 
