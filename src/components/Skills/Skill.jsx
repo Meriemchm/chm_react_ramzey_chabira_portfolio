@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = ({Title,data}) => {
   return (
     <>
-    <h2 className="text-bold text-five text-2xl">{Title}</h2>
+    <h2 className={`text-bold text-2xl ${Title === 'Others' ? 'text-green-500' : 'text-five'}`}>{Title}</h2>
     <div data-aos="fade-up"  className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 sm:px-0 justify-center">
       {data.map(({ id, title, child, style }) => (
         <div
