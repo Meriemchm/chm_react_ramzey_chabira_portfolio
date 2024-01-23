@@ -229,3 +229,24 @@ export const formItem = [
   },
 ];
 
+
+export const copyrightlink = [
+  {
+    id: 1,
+    mobile: (
+      <>
+        <FaLinkedin size={30} />
+      </>
+    ),
+    href: "https://www.linkedin.com/in/meriem-chami-361213283/",
+  },
+  {
+    id: 2,
+    mobile: (
+      <>
+        <FaGithub size={30} />
+      </>
+    ),
+    href: "https://github.com/Meriemchm",
+  },]
+

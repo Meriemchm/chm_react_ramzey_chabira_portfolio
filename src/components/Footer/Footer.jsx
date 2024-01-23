@@ -1,13 +1,13 @@
 import React from "react";
 import { LiaCopyright } from "react-icons/lia";
-import { TfiLinkedin } from "react-icons/tfi";
-import { BsGithub } from "react-icons/bs";
+import { copyrightlink } from "../Data/Data";
 
 const Footer = () => {
   return (
     <div className="w-full h-full bg-second p-4 text-white">
       <div className="">
         <div className="p-5 flex flex-row justify-between flex-wrap gap-5">
+            
           <div className="flex">
             <p className="flex">
               {" "}
@@ -28,21 +28,25 @@ const Footer = () => {
               </a>
             </p>
           </div>
+
           <div className="flex ">
-            <a
-              href="https://www.linkedin.com/in/meriem-chami-361213283/"
-              target="_blank"
-              className="text-bold hover:scale-105 "
-            >
-              <TfiLinkedin size={30} className="mr-5" />
-            </a>
-            <a
-              href="https://github.com/Meriemchm"
-              target="_blank"
-              className="text-bold hover:scale-105"
-            >
-              <BsGithub size={30} />
-            </a>
+
+            {copyrightlink.map(({ id, mobile, href, download }) => {
+                return (
+          
+                    <a
+                    key={id}
+                      href={href ? href : "/"}
+                      download={download}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mr-5 hover:scale-105 duration-200"
+                    >
+                      {mobile}
+                    </a>
+              
+                );
+              })}
           
           </div>
         </div>
