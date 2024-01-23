@@ -29,7 +29,7 @@ const Project = () => {
 
             <div data-aos="fade-left" className="mx-5 flex flex-col text-gray-800 my-4 xl:items-end xl:justify-center xl:w-1/2 ">
               
-              <h2 className="text-bold md:text-3xl capitalize mb-2 self-start xl:self-end">
+              <h2 className=" font-bold md:font-normal md:text-3xl capitalize mb-2 self-start xl:self-end">
                 {title}
               </h2>
 
