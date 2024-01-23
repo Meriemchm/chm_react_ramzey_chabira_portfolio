@@ -122,8 +122,8 @@ export const techs = [
 export const services = [
   {
     id: 1,
-    src: "",
-    title: "Experience in building machine learning models",
+    src: "icons8-intelligence-artificielle-64.png",
+    title: "Building machine learning models",
     description:
       "",
     style: "bg-four",
@@ -131,7 +131,7 @@ export const services = [
   },
   {
     id: 2,
-    src: "",
+    src: "icons8-analyse-de-la-croissance-financière-64.png",
     title: "Data Analysis and Visualization",
     description: "",
     style: "bg-primary",
@@ -139,7 +139,7 @@ export const services = [
   },
   {
     id: 3,
-    src: "",
+    src: "icons8-data-processing-66.png",
     title: "Data Preprocessing and Feature Engineering",
     description:
       "",
@@ -148,7 +148,7 @@ export const services = [
   },
   {
     id: 4,
-    src: "",
+    src: "icons8-bulletin-scolaire-50.png",
     title: "Model Evaluation",
     description: "",
     style: "bg-four",
@@ -233,53 +233,3 @@ export const formItem = [
   },
 ];
 
-
-export const menuItemSolution = [
-    {
-      id: 1,
-      path: "/TPE/PME",
-      title: "TPE/PME",
-      icon: "icons8-combo-chart-100.png",
-    },
-    {
-      id: 2,
-      path: "/CréateursEntreprise",
-      title: "Créateurs d’entreprise",
-      icon: "icons8-business-group-100.png",
-    },
-  
-    {
-      id: 3,
-      path: "/RepreneursEntreprisese",
-      title: "Repreneurs d’entreprise",
-      icon: "repreneur-entreprise.png",
-    },
-  
-    {
-      id: 4,
-      path: "/GrandsComptes",
-      title: "Grands comptes",
-      icon: "icons8-business-report-96.png",
-    },
-  ];
-  
-  export const ServiceSolution = [
-    {
-      id: 1,
-      src: "advice-red.png",
-      title: "Conseil en communication",
-      description:
-        "Avant de créer tout support de communication, j’essaye de penser à son impact. En communication, celui qui s’adapte et anticipe le mieux, obtient la meilleure des réputations.J'essaye toujours de trouver des solutions sur mesure et adaptées à vos besoins, budgets, et enjeux.... ",
-      style: "border-primary",
-      textStyle : "text-primary"
-    },
-    {
-      id: 2,
-      src: "creation-de-sites-web.png",
-      title: "Conseil en communication digitale ",
-      description:
-        "Je pourrais créer pour vous des sites internet responsives, et des applications mobiles... Je saurai vous conseiller et réaliser des outils adaptés à vos projets...",
-      style: "border-primary",
-      textStyle : "text-primary"
-    },
-  ];

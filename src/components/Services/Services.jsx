@@ -10,7 +10,7 @@ const Services = () => {
             Services
           </p>
         </div>
-        <div className=" xl:px-44">
+        <div className="">
           <Service data={services} Title="" />
         </div>
       </div>
