@@ -124,8 +124,7 @@ export const services = [
     id: 1,
     src: "icons8-intelligence-artificielle-64.png",
     title: "Building machine learning models",
-    description:
-      "",
+    
     style: "bg-four",
     textStyle : "text-second"
   },
@@ -133,24 +132,20 @@ export const services = [
     id: 2,
     src: "icons8-analyse-de-la-croissance-financière-64.png",
     title: "Data Analysis and Visualization",
-    description: "",
-    style: "bg-primary",
+  style: "bg-primary",
     textStyle : "text-second"
   },
   {
     id: 3,
     src: "icons8-data-processing-66.png",
     title: "Data Preprocessing and Feature Engineering",
-    description:
-      "",
-    style: "bg-four",
+   style: "bg-four",
     textStyle : "text-second"
   },
   {
     id: 4,
     src: "icons8-test-réussi-50.png",
     title: "Model Evaluation",
-    description: "",
     style: "bg-four",
     textStyle : "text-second"
   },
@@ -161,8 +156,8 @@ export const projects = [
       id: 1,
       src: "graph.png",
       title: "AmazonGNNProductClassification",
-      description:
-        "",
+description:
+      "Project that utilizes Graph Neural Networks (GNNs) for the task of multi-class classification to predict the category of Amazon products.",
       hcode: "https://github.com/RamzeyChibana/AmazonGNNProductClassification",
       hdemo: "",
       pdf: "",
@@ -171,8 +166,8 @@ export const projects = [
       id: 2,
       src: "Rs.png",
       title: "RecommanderSystems",
-      description:
-        "",
+    description: "This repository implements a Recommender System using both Collaborative Filtering and Content-Based approaches.",
+  
       hcode: "https://github.com/RamzeyChibana/RecommanderSystems",
       hdemo: "",
       pdf: "",
@@ -182,8 +177,9 @@ export const projects = [
       id: 3,
       src: "Fire.png",
       title: "FireDetection",
-      description:
-        "",
+   description:
+      "we Trained our model from scratch using TensorFlow Framework.",
+  
       hcode: "https://github.com/RamzeyChibana/FireDetection",
       hdemo: "",
       pdf: "",
@@ -192,8 +188,8 @@ export const projects = [
       id: 4,
       src: "ASL.png",
       title: "American-sign-language-recognition",
-      description:
-        "",
+    description: "we try to recognize American Sign Language (ASL) using yolo v2 with tensorflow and keras.",
+  
       hcode: "https://github.com/RamzeyChibana/American-sign-language-recognition",
       hdemo: "",
       pdf: "",

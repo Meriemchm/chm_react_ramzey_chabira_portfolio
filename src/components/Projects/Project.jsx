@@ -17,41 +17,28 @@ const Project = () => {
         return (
           <div
             key={id}
-            className="md:flex shadow-md  bg-white rounded-lg self-start"
+            className="xl:flex  bg-white rounded-lg justify-between"
           >
-            <div className="relative group ">
+            <div className="relative group " data-aos="fade-right">
               <img
                 src={src}
                 alt="project-name"
-                className="rounded-lg h-60 w-full object-cover"
+                className="rounded-lg md:h-96 xl:w-[30rem] h-60 w-full object-cover"
               />
             </div>
 
-            <div className="mx-5 flex flex-col text-gray-800 my-4 justify-between">
-              <h2 className="text-bold md:text-2xl capitalize mb-2 self-start">
+            <div data-aos="fade-left" className="mx-5 flex flex-col text-gray-800 my-4 xl:items-end xl:justify-center xl:w-1/2 ">
+              
+              <h2 className="text-bold md:text-3xl capitalize mb-2 self-start xl:self-end">
                 {title}
               </h2>
 
-              <p className="text-start text-sm ">
-                {isTruncated
-                  ? description.slice(0, description.lastIndexOf(" ", 140))
-                  : description}
-
-                {description.length > 150 && (
-                  <button
-                    className="text-bold pl-1"
-                    onClick={(e) => {
-                      e.stopPropagation(); // Arrête la propagation de l'événement
-                      toggleTruncate();
-                    }}
-                  >
-                    {isTruncated ? "Voir plus" : "Voir moins"}
-                  </button>
-                )}
+              <p className="text-start text-sm md:text-lg ">
+                {description}
               </p>
 
               <div className="flex justify-end items-end gap-3 mt-4">
-                <button className="flex  px-6 py-3 duration-200 border-[2px] border-transparent hover:scale-105">
+                <button className="flex py-3 duration-200 border-[2px] border-transparent hover:scale-105">
                   <a href={hcode} target="_blank" className="flex">
                     Code{" "}
                     <span>
