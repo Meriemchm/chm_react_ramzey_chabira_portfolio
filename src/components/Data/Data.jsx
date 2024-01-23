@@ -148,7 +148,7 @@ export const services = [
   },
   {
     id: 4,
-    src: "icons8-bulletin-scolaire-50.png",
+    src: "icons8-test-réussi-50.png",
     title: "Model Evaluation",
     description: "",
     style: "bg-four",
