@@ -6,11 +6,10 @@ import Skills from "../Skills/Skills";
 import Services from "../Services/Services";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
-import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <NavBar />
       <Presentation />
       <About />
@@ -18,7 +17,7 @@ const Home = () => {
       <Services />
       <Projects />
       <Contact /> 
-      <Footer /> 
+
     </div>
   );
 };

@@ -6,7 +6,7 @@ const Services = () => {
     <div  name="services" className=" h-full w-full bg-second ">
       <div className="md:px-20 mx-auto p-4 flex flex-col  w-full h-full items-center justify-cente ">
         <div data-aos="fade-up" className="flex items-center justify-center">
-        <p className="text-6xl font-bold text-four text-center py-8 ">
+        <p className="text-4xl md:text-6xl font-bold text-four text-center py-8 ">
             Services
           </p>
         </div>

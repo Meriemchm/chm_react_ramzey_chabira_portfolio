@@ -14,7 +14,7 @@ const Skills = () => {
     >
       <div  className="max-w-screen-lg mx-auto p-4 flex flex-col  w-full h-full text-white">
        <div data-aos="fade-up">
-          <p className="text-6xl font-bold text-five text-center py-8 ">
+          <p className="text-4xl md:text-6xl font-bold text-five text-center py-8 ">
             Skills
           </p>
           </div>

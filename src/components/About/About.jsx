@@ -16,6 +16,7 @@ const About = () => {
           />
      
      </div>
+     
         <div data-aos="fade-left" className="flex flex-col xl:justify-center md:px-8 xl:w-1/2">
 
           <h2 className="text-four text-2xl md:text-5xl font-bol">

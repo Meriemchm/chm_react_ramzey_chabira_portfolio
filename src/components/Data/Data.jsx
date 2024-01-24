@@ -63,7 +63,7 @@ export const links = [
 export const techs = [
     {
       id: 1,
-      child: <BiLogoPython color="black" size={50} />,
+      child: <BiLogoPython className="text-blue-900" size={50} />,
       title: "Python",
       style: "",
       type: "Programming languages",
@@ -77,7 +77,7 @@ export const techs = [
     },
     {
       id: 3,
-      child: <FaJava  color="black" size={50} />,
+      child: <FaJava  className=" text-slate-500" size={50} />,
       title: "Java",
       style: "",
       type: "Programming languages",

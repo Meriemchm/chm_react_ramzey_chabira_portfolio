@@ -10,7 +10,7 @@ const Contact = () => {
     <div name="contact" className="h-full py-20 bg-third ">
       <div data-aos="fade-up"  className="pb-8 md:px-20">
 
-        <p className="text-6xl font-bold text-primary text-center py-8 ">
+        <p className="text-4xl md:text-6xl font-bold text-primary text-center py-8 ">
             Contact
           </p>
     
@@ -63,6 +63,7 @@ const Contact = () => {
                   rows="10"
                   autoComplete="off"
                   required
+                  style={{ resize: "none" }}
                   className="p-2 bg-transparent border-[1px] border-black  text-black placeholder-black focus:outline-none"
                 ></textarea>
               );

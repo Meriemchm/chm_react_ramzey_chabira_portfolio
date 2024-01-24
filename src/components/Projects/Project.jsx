@@ -8,18 +8,15 @@ const Project = () => {
 
   return (
     <div className=" grid grid-cols-1 xl:grid-cols-1 gap-6 text-center py-8 px-0 justify-center items-center ">
+      
       {projects.map(({ id, src, title, description, hdemo, hcode }) => {
-        const [isTruncated, setIsTruncated] = useState(true);
-
-        const toggleTruncate = () => {
-          setIsTruncated(!isTruncated);
-        };
+ 
         return (
           <div
             key={id}
             className="xl:flex  bg-white rounded-lg justify-between"
           >
-            <div className="relative group " data-aos="fade-right">
+            <div className=" " data-aos="fade-right">
               <img
                 src={src}
                 alt="project-name"
