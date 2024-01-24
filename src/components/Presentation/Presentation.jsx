@@ -13,7 +13,7 @@ const Presentation = () => {
         <source src='portfolio_cr_video.mp4' type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div   className="absolute inset-0  mx-auto justify-center items-center h-full px-5  sm:w-1/2">
+      <div   className="absolute inset-0  mx-auto justify-center items-center h-full px-5 sm:px-0 sm:w-1/2">
         <div className="flex flex-col justify-center h-full gap-8  ">
         <div className="flex flex-col justify-center ">
             <h2 className="text-3xl md:text-5xl xl:text-6xl font-bold py-5 ">
