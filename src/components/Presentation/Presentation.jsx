@@ -3,15 +3,23 @@ import { links } from "../Data/Data";
 
 const Presentation = () => {
   return (
-    <div data-aos="fade-up"  name="home" className="flex h-screen w-full   " >
-
-      <div   className="  mx-auto justify-center items-center h-full px-5 md:px-0 md:my-0 xl:w-1/2">
-        <div className="flex flex-col justify-center h-full gap-8  md:pt-0">
-        <div className="flex flex-col justify-center  md:pt-0">
-            <h2 className="text-3xl md:text-6xl font-bold py-5 ">
+    <div data-aos="fade-up"  name="home" className="flex h-screen w-full relative  " >
+       <video
+        autoPlay
+        loop
+        muted
+        className="absolute  w-full h-full object-cover"
+      >
+        <source src='portfolio_cr_video.mp4' type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div   className="absolute inset-0  mx-auto justify-center items-center h-full px-5  sm:w-1/2">
+        <div className="flex flex-col justify-center h-full gap-8  ">
+        <div className="flex flex-col justify-center ">
+            <h2 className="text-3xl md:text-5xl xl:text-6xl font-bold py-5 ">
             Hey there, I am a 
             </h2>
-            <p className="text-primary text-5xl md:text-8xl font-bold text-right">
+            <p className="text-primary text-5xl md:text-6xl xl:text-8xl font-bold text-right">
             Data Scientist
             </p>
           </div>  
